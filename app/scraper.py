@@ -12,7 +12,7 @@ class Job:
         self.max_salary = max_salary
         
     def __str__(self):
-        return f"\n{self.company_logo}\nCompany name: {self.company_name}\nTitle: {self.title}\nApplication URLs: {self.app_url}\nRemote: {self.remote}\nSalary: ${self.min_salary} - ${self.max_salary}\n"
+        return f"\nCompany name: {self.company_name}\nTitle: {self.title}\nApplication URLs: {self.app_url}\nRemote: {self.remote}\nSalary: ${self.min_salary} - ${self.max_salary}\n"
 
 def jobToString(job_list):
     string = ""
